@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚨 SafeAlert 🚨"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#D32F2F"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/startAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Alert"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        android:backgroundTint="#388E3C"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/stopAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Alert"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@id/startAlert"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF" />
+
+    <!-- NEW: Stealth Alert Button merged into your design -->
+    <Button
+        android:id="@+id/stealthAlertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stealth Alert"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@id/stopAlert"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:backgroundTint="#1976D2"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

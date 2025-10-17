@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "93719372602",
+    "project_id": "safealertt-820f2",
+    "storage_bucket": "safealertt-820f2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93719372602:android:691895932f20bb356de603",
+        "android_client_info": {
+          "package_name": "com.kalasri.safealert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM8c90g-Fnp6mIJ7FhF3u_tElygMsAwlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
